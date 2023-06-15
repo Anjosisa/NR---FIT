@@ -1,0 +1,249 @@
+/* Colocamos os nosso links das fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@700&display=swap');
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Quando colocamos dois nomes separados um do outro, ele "chama" as duas necessidades */
+
+.container{
+    max-width: 1200px; /*largura máxima de 1200px*/
+    margin: 0 auto; /*definição da margem como 0 para todos os lados*/
+    padding: 20px; /*preenchimento da div para a caixa conter o seu espaçamento*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe cor de fundo */
+
+.cor_de_fundo{
+    background-color: rgba(0, 0, 0, 0.73); /*define a cor de fundo como um tom de preto com uma transparência de 0.73 usando o rgba.*/
+    flex-wrap: wrap; /*serve para quebrar os elementos com responsividade */
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe cabeçalho */
+
+.cabeçalho{
+    display: flex; /*layout flexível - onde vamos poder manipular os elementos*/
+    margin: 0 auto; /*definição da margem como 0 para todos os lados*/
+    max-width: 1200px; /*largura máxima de 1200px*/
+    padding: 0px; /*preenchimento da div para a caixa conter o seu espaçamento, neste caso seria 0*/
+    justify-content: space-between; /*os itens são distribuídos igualmente no espaço disponível horizontalmente*/
+    align-items: center; /*é utilizado para alinhar os elementos verticalmente*/
+    flex-wrap: wrap; /*serve para quebrar os elementos com responsividade */
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe logo */
+
+.logo{
+    width: 145px; /*largura de 145px*/
+    height: 125px; /*altura de 125px*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe logo em especifico a alteração do comando o img */
+
+.logo img{
+    max-width: 130px; /*largura máxima de 145px*/
+    max-height: 130px; /*altura máxima de 145px*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe nav em especifico o ul */
+
+.nav ul{
+    display: flex; /*layout flexível - onde vamos poder manipular os elementos*/
+    flex-wrap: wrap;
+    gap: 20px; /*espaçamento de 20px*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe sobre em especifico o button */
+
+.sobre button{
+    background-color: #9f9f9f; /*adicionando a cor 9f9f9f*/
+    width: 90px; /*largura de 90px*/
+    height: 30px; /*altura de 30px*/
+    font-family: 'poppins'; /*definição da fonte como "poppins"*/
+    font-size: 15px; /*tamanho da fonte como 15px*/
+    font-weight: 600; /*peso da fonte como 600*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe sobre em especifico o button e o link (a)*/
+
+.sobre button a{
+    color: #000000; /*Adicionar a cor da onte como 000000*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe modalidades em especifico o button*/
+
+.modalidades button{
+    background-color: #9f9f9f; /*adicionando a cor 9f9f9f*/
+    width: 170px; /*largura de 170px*/
+    height: 30px; /*altura de 30px*/
+    font-family: 'Poppins'; /*definição da fonte como "poppins"*/
+    font-size: 15px; /*tamanho da fonte como 15px*/
+    font-weight: 600;/*peso da fonte como 600*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe modalidades em especifico o button e o link (a)*/
+
+.modalidades button a{
+    color: #000000; /*Adicionar a cor da onte como 000000*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe agendamentos em especifico o button*/
+
+.agendamentos button{
+    background-color: #9f9f9f; /*adicionando a cor 9f9f9f*/
+    width: 170px; /*largura de 170px*/
+    height: 30px; /*altura de 30px*/
+    font-family: 'Poppins'; /*definição da fonte como "poppins"*/
+    font-size: 15px; /*tamanho da fonte como 15px*/
+    font-weight: 600; /*peso da fonte como 600*/
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --*/
+
+/* Chamamos a nossa classe modalidades em especifico o button e o link (a)*/
+
+.agendamentos button a{
+    color: #000000; /*Adicionar a cor da onte como 000000*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Chamamos a nossa classe home*/
+
+.home{
+    background: url(../img/academia.jpg); /*Definir a imagem de fundo*/
+    background-repeat: no-repeat; /*Utilizado para a imagem não se repitir*/
+    background-size: cover; /*Ajustar o tamanho do elemento*/
+    background-position: center; /*Posição centralizada*/
+    background-color: rgba(0, 0, 0, 0.5); /*define a cor de fundo como um tom de preto com uma transparência de 50% usando o rgba.*/
+    background-blend-mode: color; /* define como a cor de fundo se mistura com a imagem*/
+    display: flex; /*layout flexível - onde vamos poder manipular os elementos*/
+    justify-content: center; /*os itens são centralizados no espaço disponível horizontalmente*/
+    align-items: center; /*é utilizado para alinhar os elementos verticalmente*/
+    background-attachment: fixed; /*A imagem de fundo é fixa em relação à janela de visualização*/
+    flex-direction: column; /*O layout do conteúdo dentro do elemento é uma coluna*/
+    padding-top: 150px; /*Preenchimento no campo superior de 150px*/
+    padding-bottom: 150px; /*Preenchimento no campo inferior de 150px*/
+    gap: 150px; /*espaçamento de 150px*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Chamamos a nossa classe sobre_titulo*/
+
+.sobre_titulo{
+    display: flex;
+    font-size: 50px; /*tamanho da fonte como 50px*/
+    font-family: 'Kadwa'; /*definição da fonte como "kadwa"*/
+    font-weight: 700; /*peso da fonte como 700*/
+    color: #C6C6C6; /*Adicionar a cor da fonte como C6C6C6*/
+    text-align: center; /*centralizar o texto*/
+    flex-wrap: wrap;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Chamamos a nossa classe borda*/
+
+.borda{
+    width: 340px; /*largura de 340px*/
+    display: block; /*é exibido como um bloco*/
+    margin-top: 70px; /*margem superior de 70px*/
+    color: #C6C6C6; /*definir a cor da fonte como white*/
+    border: 3px solid #C6C6C6; /*possui uma borda sólida branca de 3 pixels*/
+    padding: 0 auto; /*preenchimento da div para a caixa conter o seu espaçamento, neste caso seria 0*/
+    letter-spacing: 3px; /*espaçamento entre as letras de 3px*/
+   
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Chamamos a nossa classe sobre_texto*/
+
+.sobre_texto{
+    background-color: rgba(0, 0, 0, 0.73); /*define a cor de fundo como um tom de preto com uma transparência de 0.73 usando o rgba.*/
+    font-family: 'Poppins'; /*definição da fonte como "poppins"*/
+    font-weight: 500; /*peso da fonte como 500*/
+    font-size: 18px; /*tamanho da fonte como 18px*/
+    color: rgba(198, 198, 198, 0.84); /*define a cor do texto como um tom de cinza com uma transparência de 0.84 usando o rgba*/
+    text-align: center; /*centralizar o texto*/
+    justify-content: space-around; /*distribui o conteúdo igualmente em torno do eixo principal*/
+    padding: 60px; /*preenchimento da div para a caixa conter o seu espaçamento de 60px*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Chamamos a nossa classe direitos*/
+
+.direitos{
+    padding: 15px; /*preenchimento da div para a caixa conter o seu espaçamento de 15px*/
+    display: flex; /*layout flexível - onde vamos poder manipular os elementos*/
+    justify-content: center; /*os itens são centralizados no espaço disponível horizontalmente*/
+    flex-direction: column; /*O layout do conteúdo dentro do elemento é uma coluna*/
+    align-items: center; /*é utilizado para alinhar os elementos verticalmente*/
+    font-family: 'Poppins'; /*definição da fonte como "poppins"*/
+    color: #9f9f9f; /*Adicionar a cor da onte como 9f9f9f*/
+    font-size: 14px; /*tamanho da fonte como 14px*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Chamamos a nossa classe icones*/
+
+.icones{
+    max-width: 80px;  /*largura máxima de 80px*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Chamamos a nossa classe icones*/
+
+.icons{
+    padding: 15px 0; /*preenchimento da div para a caixa conter o seu espaçamento de 15px na direção vertical e 0 na horizontal*/
+    display: flex; /*layout flexível - onde vamos poder manipular os elementos*/
+    flex-wrap: wrap; /*quebra os itens para a próxima linha, se necessário*/
+    justify-content: space-between; /*os itens são distribuídos igualmente no espaço disponível horizontalmente*/
+    gap: 18px; /*espaçamento de 18px*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Chamamos a nossa classe logo3 em especifico o img*/
+
+.logo3 img{
+    max-width: 80px; /*largura máxima de 80px*/
+    max-height: 80px; /*altura máxima de 80px*/
+}

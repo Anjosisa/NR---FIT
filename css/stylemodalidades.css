@@ -1,0 +1,273 @@
+/* Alexandre */
+/* colocamos os nossos links das fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@700&display=swap'); 
+
+
+/*Primeira parte*/
+
+/*Essas propriedades são usadas para normalizar o estilo padrão dos elementos, removendo espaçamentos indesejados, 
+bordas e decorações, garantindo um ponto de partida consistente para o desenvolvimento de estilos personalizados.*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* cor de fundo da header */
+.cor_de_fundo {
+    background-color: rgba(0, 0, 0, 0.73);
+    width: 100vw; /* Define a largura do elemento como 100% da largura */
+}
+
+/* layout do cabeçalho */
+.cabeçalho {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* largura da div logo */
+.logo {
+    width: 145px; /* Define a largura do elemento com a classe .logo como 145 pixels */
+    height: 125px; /* Define a altura do elemento com a classe .logo como 125 pixels */
+}
+
+/* largura da logo */
+.logo img{
+    max-width: 130px; /* largura máxima de 130px */
+    max-height: 130px; /*largura máxima de 130px */
+}
+
+/* para navegar dentro da lista (sobre, modalidades e agendamentos */
+.nav ul{
+    display: flex;  /* Aplica o layout flexível ao elemento cabeçalho e seus descendentes */
+    gap: 20px;  /* espaçamento de 20px */
+    flex-wrap: wrap;
+}
+
+
+.sobre button {
+    background-color: #9f9f9f; /* Define a cor de fundo dos botões com a classe .sobre como cinza */
+    width: 90px; /* Define a largura dos botões com a classe .sobre como 90 pixels */
+    height: 30px; /* Define a altura dos botões com a classe .sobre como 30 pixels */
+    font-family: 'Poppins'; /* Define a fonte dos botões com a classe .sobre como 'Poppins' */
+    font-size: 15px; /* Define o tamanho da fonte dos botões com a classe .sobre como 15 pixels */
+    font-weight: 600; /* Define o peso da fonte dos botões com a classe .sobre como negrito */
+}
+.sobre button a {
+    color: #000000;  /* adicionar a cor da fonte como 000000 */
+}
+
+.modalidades button{
+    background-color: #9f9f9f; /* Define a cor de fundo dos botões com a classe .sobre como cinza */
+    width: 170px; /* Define a largura dos botões com a classe .sobre como 170 pixels */
+    height: 30px;  /* Define a altura dos botões com a classe .sobre como 30 pixels */
+    font-family: 'Poppins'; /* Define a fonte dos botões com a classe .sobre como 'Poppins' */
+    font-size: 15px;  /* Define o tamanho da fonte dos botões com a classe .sobre como 15 pixels */
+    font-weight: 600; /* Define o peso da fonte dos botões com a classe .sobre como negrito */
+}
+
+.modalidades button a{
+    color: #000000; /* adicionar a cor da fonte como 000000 */
+}
+
+.agendamentos button{
+    background-color: #9f9f9f; /* Define a cor de fundo dos botões com a classe .sobre como cinza */
+    width: 170px; /* Define a largura dos botões com a classe .sobre como 170 pixels */
+    height: 30px; /* Define a altura dos botões com a classe .sobre como 30 pixels */
+    font-family: 'Poppins'; /* Define a fonte dos botões com a classe .sobre como 'Poppins' */
+    font-size: 15px; /* Define o tamanho da fonte dos botões com a classe .sobre como 15 pixels */
+    font-weight: 600; /* Define o peso da fonte dos botões com a classe .sobre como negrito */
+}
+
+.agendamentos button a{
+    color: #000000; /* adicionar a cor da fonte como 000000 */
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/*segunda parte*/
+
+
+section:nth-of-type(1) {
+    width: 100vw; /* Define a largura do elemento como 100% da largura da viewport */
+    height: 100vh; /* Define a altura do elemento como 100% da altura da viewport */
+    background: url(../img/academia.jpg) center center/cover; /* Define a imagem de fundo e ajusta sua posição e dimensionamento */
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo com transparência */
+    background-blend-mode: color; /* Define o modo de mesclagem de fundo como "color" */
+    background-attachment: fixed; /* Fixa o fundo em relação à viewport */
+    display: flex; /* Define o elemento como um container flexível */
+    align-items: center; /* Centraliza verticalmente os itens filhos */
+    justify-content: center; /* Centraliza horizontalmente os itens filhos */
+    color: #fff; /* Define a cor do texto como branco */
+    display: flex;
+}
+
+
+
+section:nth-of-type(3){
+    width: 100vw; /* Define a largura do elemento como 100% da largura da viewport */
+    height: 700px; /* Define a altura do elemento como 700px*/
+    background: url(../img/musculação.png) center center/cover; /* Define a imagem de fundo e ajusta sua posição e dimensionamento */
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo com transparência */
+    background-blend-mode: color; /* Define o modo de mesclagem de fundo como "color" */
+    background-attachment: fixed; /* Fixa o fundo em relação à viewport */
+    display: flex; /* Define o elemento como um container flexível */
+    align-items: center; /* Centraliza verticalmente os itens filhos */
+    justify-content: center; /* Centraliza horizontalmente os itens filhos */
+    color: #fff; /* Define a cor do texto como branco */
+    display: flex;
+}
+
+section:nth-of-type(5){
+    width: 100vw;/* Define a largura do elemento como 100% da largura da viewport */
+    height: 700px;/* Define a altura do elemento como 700px*/
+    background: url(../img/pilates.png) center center/cover; /* Define a imagem de fundo e ajusta sua posição e dimensionamento */
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo com transparência */
+    background-blend-mode: color; /* Define o modo de mesclagem de fundo como "color" */
+    background-attachment: fixed; /* Fixa o fundo em relação à viewport */
+    display: flex; /* Define o elemento como um container flexível */
+    align-items: center; /* Centraliza verticalmente os itens filhos */
+    justify-content: center; /* Centraliza horizontalmente os itens filhos */
+    color: #fff; /* Define a cor do texto como branco */
+    display: flex;
+}
+
+section:nth-of-type(7){
+    width: 100vw; /* Define a largura do elemento como 100% da largura da viewport */
+    height: 700px; /* Define a altura do elemento como 700px*/
+    background: url(../img/natação.png) center center/cover; /* Define a imagem de fundo e ajusta sua posição e dimensionamento */
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo com transparência */
+    background-blend-mode: color; /* Define o modo de mesclagem de fundo como "color" */
+    background-attachment: fixed; /* Fixa o fundo em relação à viewport */
+    display: flex;  /* Define o elemento como um container flexível */
+    align-items: center; /* Centraliza verticalmente os itens filhos */
+    justify-content: center; /* Centraliza horizontalmente os itens filhos */
+    color: #fff; /* Define a cor do texto como branco */
+    display: flex;
+}
+
+section:nth-of-type(9){
+    width: 100vw; /* Define a largura do elemento como 100% da largura da viewport */
+    height: 700px; /* Define a altura do elemento como 700px*/
+    background: url(../img/crossfit.jpg) center center/cover; /* Define a imagem de fundo e ajusta sua posição e dimensionamento */
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo com transparência */
+    background-blend-mode: color; /* Define o modo de mesclagem de fundo como "color" */
+    background-attachment: fixed; /* Fixa o fundo em relação à viewport */
+    display: flex; /* Define o elemento como um container flexível */
+    align-items: center; /* Centraliza verticalmente os itens filhos */
+    justify-content: center;/* Centraliza horizontalmente os itens filhos */
+    color: #fff; /* Define a cor do texto como branco */
+    display: flex;
+}
+
+section:nth-of-type(11){
+    width: 100vw;/* Define a largura do elemento como 100% da largura da viewport */
+    height: 700px; /* Define a altura do elemento como 700px*/
+    background: url(../img/treinamentofuncional.jpg) center center/cover; /* Define a imagem de fundo e ajusta sua posição e dimensionamento */
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo com transparência */
+    background-blend-mode: color; /* Define o modo de mesclagem de fundo como "color" */
+    background-attachment: fixed; /* Fixa o fundo em relação à viewport */
+    display: flex; /* Define o elemento como um container flexível */
+    align-items: center; /* Centraliza verticalmente os itens filhos */
+    justify-content: center; /* Centraliza horizontalmente os itens filhos */
+    color: #fff; /* Define a cor do texto como branco */
+    display: flex;
+}
+
+.titulo > a{
+    font-size: 32px; /* Define o tamanho da fonte dos botões com a classe .sobre como 32 pixels */
+    border: 2px solid #C6C6C6; /* possui uma borda sólida branca de 2px*/
+    padding: 20px;  /* Adiciona um preenchimento interno de 20 pixels ao redor do cabeçalho */
+    letter-spacing: 3px;  /* espaçamento entre as letras */
+    color: #c6c6c6; /* Define a cor do texto como branco */
+    display: inline-block;
+    font-family: 'Kadwa';
+    font-weight: 700;
+
+}
+
+
+.titulo > a:hover{
+    background-color: rgba(98, 98, 98, 0.5);
+
+}
+
+.container{
+    font-family: 'kadwa';
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+    min-height: 27vh; /* Define a altura do elemento como 23vh*/
+    width: 100vw; /* Define a largura do elemento como 100% da largura da viewport */
+    margin: 0 auto;
+    padding: 20px;
+    text-indent: 60px;
+
+
+    background: rgba(1, 1, 1, 0.84);
+    color: #C6C6C6;
+    display: flex;
+}
+
+.container p{
+    line-height: 1.5;
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+/*terceira parte*/
+
+
+.cor_de_fundo_fim{
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+.direitos{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    color: #9f9f9f;
+    font-size: 14px;
+}
+
+.icones{
+    max-width: 80px;
+}
+
+.icons{
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.logo3 img{
+    max-width: 80px;
+    max-height: 80px;
+}

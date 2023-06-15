@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* importa uma fonte chamada "Poppins" do Google Fonts para ser usada no documento. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* definem estilos iniciais para todos os elementos, removendo margens, preenchimentos, bordas, listas e decorações de texto e definindo a caixa de modelagem como "border-box". */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* define um container com largura máxima de 1200 pixels, margens automáticas e um preenchimento de 20 pixels. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.cor_de_fundo{
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+/* define a cor de fundo como um tom de preto com transparência. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+.cabeçalho{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* define o cabeçalho com um layout flexível, com margens automáticas, largura máxima de 1200 pixels, nenhum preenchimento, alinhamento justificado entre os elementos e alinhamento centralizado verticalmente. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.logo{
+    width: 145px;
+    height: 125px;
+}
+
+/* define o tamanho da div "logo" com largura de 145 pixels e altura de 125 pixels. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.logo img{
+    max-width: 130px;
+    max-height: 130px;
+}
+
+/* aqui definimos o tamanho máximo da imagem da logo como 130 pixels de largura e 130 pixels de altura. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+/* define a lista de navegação como um layout flexível e adiciona um espaçamento de 20 pixels entre os itens da lista. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.sobre button{
+    background-color: #9f9f9f;
+    width: 90px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* define o estilo do botão na seção "Sobre", com uma cor de fundo, largura e altura específicas, usando a fonte "Poppins" com um tamanho e peso da fonte específicos. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.sobre button a{
+    color: #000000;
+}
+
+/* define a cor do texto dentro do botão "Sobre" como preto.*/
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.modalidades button{
+    background-color: #9f9f9f;
+    width: 170px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* define o estilo do botão na seção "Modalidades", com uma cor de fundo, largura e altura específicas, usando a fonte "Poppins" com um tamanho e peso da fonte específicos. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.modalidades button a{
+    color: #000000;
+}
+
+/* define a cor do texto dentro do botão "Modalidades" como preto. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.agendamentos button{
+    background-color: #9f9f9f;
+    width: 170px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* define o estilo do botão na seção "Agendamentos", com uma cor de fundo, largura e altura específicas, usando a fonte "Poppins" com um tamanho e peso da fonte específicos. */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.agendamentos button a{
+    color: #000000;
+}
+
+/* define a cor do texto dentro do botão "Agendamentos" como preto. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.home{
+    background: url(../img/academia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    gap: 150px;
+}
+
+/* define o estilo da seção "home", com uma imagem de fundo, repetição da imagem desabilitada, redimensionamento da imagem para cobrir todo o elemento, posição centralizada da imagem, uma cor de fundo com transparência, modo de mistura de cor, layout flexível com alinhamento centralizado horizontal e vertical, fixação do fundo durante a rolagem, disposição vertical dos elementos internos, espaçamento superior e inferior de 150 pixels e espaçamento vertical entre os elementos internos de 150 pixels. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.logo2 img{
+    display: flexbox;
+    justify-content: center;
+    width: 670px;
+    height: 368px;
+}
+
+/* define o estilo da imagem dentro da div "logo2", com um layout flexível, alinhamento centralizado horizontal e vertical, largura de 670 pixels e altura de 368 pixels. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.bem-vindos{
+    background-color: rgba(0, 0, 0, 0.73);
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 38px;
+    color: rgba(198, 198, 198, 0.84);
+    text-align: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+/* define o estilo da div "bem-vindos", com uma cor de fundo com transparência, a fonte "Poppins" com um peso e tamanho da fonte específicos, uma cor de texto específica com transparência, alinhamento centralizado do texto, espaçamento uniforme ao redor do conteúdo interno e um preenchimento interno de 60 pixels. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.direitos{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    color: #9f9f9f;
+    font-size: 14px;
+}
+
+/* define o estilo da div "direitos", com um preenchimento interno de 15 pixels, um layout flexível, alinhamento centralizado verticalmente dos elementos internos, direção da coluna para os elementos internos, uma fonte específica, uma cor de texto específica, e um tamanho de fonte de 14 pixels. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.icones{
+    max-width: 80px;
+}
+
+/* define a largura máxima dos ícones como 80 pixels. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.icons{
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+/* define o estilo da lista de ícones, com um espaçamento interno de 15 pixels na direção vertical, um layout flexível, quebra de linha automática para os elementos internos, alinhamento justificado entre os elementos e um espaçamento de 18 pixels entre os elementos. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.logo3 img{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+/* define o tamanho máximo da imagem dentro da div "logo3" como 80 pixels de largura e 80 pixels de altura. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
