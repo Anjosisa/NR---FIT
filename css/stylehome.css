@@ -30,6 +30,7 @@
 
 .cor_de_fundo{
     background-color: rgba(0, 0, 0, 0.73);
+    flex-wrap: wrap;
 }
 
 /* define a cor de fundo como um tom de preto com transparência. */
@@ -42,6 +43,7 @@
     padding: 0px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* define o cabeçalho com um layout flexível, com margens automáticas, largura máxima de 1200 pixels, nenhum preenchimento, alinhamento justificado entre os elementos e alinhamento centralizado verticalmente. */
